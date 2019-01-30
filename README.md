@@ -4,7 +4,7 @@ This is an example that shows a couple lines of code for a basic example of .pad
 more involved. This is based off the MDN entry on .padStart(), found here: 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart
 
-The goals of this example are to:
+The goals of this example are to:  
 • Explain how .padStart() works  
 • Show a basic use of .padStart()  
 • Make a function that takes a 16 digit credit/debit card number and report that said   
