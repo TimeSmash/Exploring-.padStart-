@@ -1,0 +1,19 @@
+var reveal = “Surprise!”
+
+reveal.padStart(25, ‘.’) //"................Surprise!"
+
+function secureCharge (num) {
+  var numString = num + ""
+  if (numString.length === 16) {
+    var last4 = numString.slice(-4)
+    return `Your card 
+   \"${last4.padStart(16, '*')}\" was 
+   successfully charged.`
+ } else {
+      return "Please enter a 16-digit card number."
+   }
+}
+
+secureCharge(1111222233334444); //“Your card ************4444” was successfully charged.
+
+secureCharge(111122223333444); //“Please enter a 16-digit card number.”
